@@ -87,14 +87,14 @@ if ( ! class_exists( 'TTW_Compat' ) ) {
 			}
 
 			// Fallback for themes with plugins wizard manifest but without filter for compatibility.
-			$manifest = locate_template( 'tm-wizard-manifest.php' );
+			$manifest = locate_template( array( 'cherry-plugin-wizard-manifest.php', 'tm-wizard-manifest.php' ) );
 
 			if ( file_exists( $manifest ) ) {
 				return array(
-					'name'         => esc_html__( 'TM Wizard', 'cherry-theme-wizard' ),
-					'slug'         => 'tm-wizard',
-					'source'       => 'https://github.com/templatemonster/tm-wizard/archive/v1.0.0.zip',
-					'external_url' => 'https://github.com/templatemonster/tm-wizard/',
+					'name'         => esc_html__( 'Cherry Plugin Wizard', 'cherry-theme-wizard' ),
+					'slug'         => 'cherry-plugin-wizard',
+					'source'       => 'https://github.com/CherryFramework/cherry-plugin-wizard/archive/master.zip',
+					'external_url' => 'https://github.com/CherryFramework/cherry-plugin-wizard/',
 				);
 			}
 
