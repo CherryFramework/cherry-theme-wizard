@@ -41,8 +41,8 @@ if ( ! class_exists( 'TTW_Interface' ) ) {
 		 */
 		public function register_page() {
 			add_management_page(
-				esc_html__( 'TM Theme Wizard', 'cherry-theme-wizard' ),
-				esc_html__( 'TM Theme Wizard', 'cherry-theme-wizard' ),
+				esc_html__( 'Theme Wizard', 'cherry-theme-wizard' ),
+				esc_html__( 'Theme Wizard', 'cherry-theme-wizard' ),
 				'manage_options',
 				ttw()->slug(),
 				array( $this, 'render_page' )

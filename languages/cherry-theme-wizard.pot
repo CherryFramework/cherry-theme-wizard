@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: blank\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-21 15:55+0200\n"
-"PO-Revision-Date: 2017-04-21 15:55+0200\n"
+"POT-Creation-Date: 2017-05-11 14:28+0200\n"
+"PO-Revision-Date: 2017-05-11 14:28+0200\n"
 "Last-Translator: Vladimir Anokhin <ano.vladimir@gmail.com>\n"
 "Language-Team: Cherry Team <support@cherryframework.com>\n"
 "Language: su\n"
@@ -17,6 +17,10 @@ msgstr ""
 "X-Generator: Poedit 1.7.6\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Poedit-SearchPath-0: .\n"
+
+#: cherry-theme-wizard.php:308
+msgid "* Please, fill this field"
+msgstr ""
 
 #: includes/class-ttw-ajax-handlers.php:80
 msgid "Installation data lost, please return to previous step and try again."
@@ -69,7 +73,7 @@ msgid "Nonce verfictaion failed"
 msgstr ""
 
 #: includes/class-ttw-compat.php:94
-msgid "TM Wizard"
+msgid "Cherry Plugin Wizard"
 msgstr ""
 
 #: includes/class-ttw-compat.php:135
@@ -122,7 +126,7 @@ msgid ""
 msgstr ""
 
 #: includes/class-ttw-interface.php:44 includes/class-ttw-interface.php:45
-msgid "TM Theme Wizard"
+msgid "Theme Wizard"
 msgstr ""
 
 #: includes/class-ttw-updater-api.php:94
@@ -210,8 +214,4 @@ msgstr ""
 
 #: templates/step-verification.php:24
 msgid "Start Install"
-msgstr ""
-
-#: tm-theme-wizard.php:308
-msgid "* Please, fill this field"
 msgstr ""

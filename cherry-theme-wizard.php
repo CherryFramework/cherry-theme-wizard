@@ -1,10 +1,10 @@
 <?php
 /**
  * Plugin Name: Cherry Theme Wizard
- * Plugin URI:  http://www.templatemonster.com/wordpress-themes.php
+ * Plugin URI:  http://cherryframework.com/plugins/
  * Description: Themes installation wizard.
  * Version:     1.0.0
- * Author:      TemplateMonster
+ * Author:      Cherry Team
  * Author URI:  http://cherryframework.com/
  * Text Domain: cherry-theme-wizard
  * License:     GPL-3.0+
