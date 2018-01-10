@@ -51,7 +51,6 @@ if ( ! class_exists( 'TTW_Ajax_Handlers' ) ) {
 			foreach ( $actions as $action ) {
 				if ( is_callable( array( $this, $action ) ) ) {
 					add_action( 'wp_ajax_tm_theme_wizard_' . $action, array( $this, $action ) );
-					add_action( 'init' );
 				}
 			}
 
